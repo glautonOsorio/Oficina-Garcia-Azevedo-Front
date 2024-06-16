@@ -1,15 +1,13 @@
----
-
 # Oficina-Garcia-Azevedo-Front
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Scripts](#scripts)
 - [Dependencies](#dependencies)
 - [Dev Dependencies](#dev-dependencies)
-- [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -102,11 +100,6 @@ npm run web
 
 - `@babel/core`: ^7.20.0
 
-## Autores
-[Glauton Osório](https://github.com/glautonOsorio) 
-[Thalles Azevedo](https://github.com/TThaz) 
-[Herbert Cardozo](https://github.com/HerbCyor) 
-
 ## Contributing
 
 We welcome contributions to this project. Please follow these steps to contribute:
@@ -117,8 +110,12 @@ We welcome contributions to this project. Please follow these steps to contribut
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
 
+## Autores
+
+[Glauton Osório](https://github.com/glautonOsorio)-
+[Thalles Azevedo](https://github.com/TThaz) -
+[Herbert Cardozo](https://github.com/HerbCyor)
+
 ## License
 
 This project is licensed under the MIT License.
-
----
