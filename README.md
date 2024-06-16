@@ -1,64 +1,58 @@
-# Oficina-Garcia-Azevedo-Front
+# Oficina Garcia Azevedo Frontend
 
-## Table of Contents
+## Índice
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Introdução](#introdução)
+- [Instalação](#instalação)
+- [Uso](#uso)
 - [Scripts](#scripts)
-- [Dependencies](#dependencies)
-- [Dev Dependencies](#dev-dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+- [Dependências](#dependências)
+- [Dependências de Desenvolvimento](#dependências-de-desenvolvimento)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
 
-## Introduction
+## Introdução
 
-This is a React Native project built with Expo, designed to provide a robust and scalable application framework. The project utilizes various libraries including React Hook Form for form management, Yup for validation, and React Navigation for navigation handling.
+Este é o frontend da aplicação Oficina Garcia Azevedo. Ele é construído com React Native utilizando Expo, e é projetado para fornecer um framework de aplicação robusto e escalável. O projeto utiliza várias bibliotecas, incluindo React Hook Form para gerenciamento de formulários, Yup para validação, e React Navigation para gerenciamento de navegação.
 
-## Installation
+## Instalação
 
-To get started with this project, follow these steps:
+Para começar com este projeto, siga estes passos:
 
-1. **Clone the repository:**
+1. **Clone o repositório:**
 
    ```sh
    git clone https://github.com/glautonOsorio/Oficina-Garcia-Azevedo-Front.git
    cd Oficina-Garcia-Azevedo-Front
    ```
 
-2. **Install dependencies:**
+2. **Instale as dependências:**
 
    ```sh
    npm install
    ```
 
-3. **Start the project:**
+## Uso
 
-   ```sh
-   npm start
-   ```
+### Rodando no Android
 
-## Usage
-
-### Running on Android
-
-To run the project on an Android device or emulator, use:
+Para rodar o projeto em um dispositivo Android ou emulador, use:
 
 ```sh
 npm run android
 ```
 
-### Running on iOS
+### Rodando no iOS
 
-To run the project on an iOS device or simulator, use:
+Para rodar o projeto em um dispositivo iOS ou simulador, use:
 
 ```sh
 npm run ios
 ```
 
-### Running on Web
+### Rodando na Web
 
-To run the project in a web browser, use:
+Para rodar o projeto em um navegador web, use:
 
 ```sh
 npm run web
@@ -66,12 +60,12 @@ npm run web
 
 ## Scripts
 
-- **`npm start`**: Starts the Expo server.
-- **`npm run android`**: Starts the Expo server and opens the project in an Android emulator.
-- **`npm run ios`**: Starts the Expo server and opens the project in an iOS simulator.
-- **`npm run web`**: Starts the Expo server and opens the project in a web browser.
+- **`npm start`**: Inicia o servidor Expo.
+- **`npm run android`**: Inicia o servidor Expo e abre o projeto em um emulador Android.
+- **`npm run ios`**: Inicia o servidor Expo e abre o projeto em um simulador iOS.
+- **`npm run web`**: Inicia o servidor Expo e abre o projeto em um navegador web.
 
-## Dependencies
+## Dependências
 
 - `@expo/metro-runtime`: ~3.2.1
 - `@gluestack-style/react`: ^1.0.56
@@ -96,26 +90,26 @@ npm run web
 - `react-native-web`: ~0.19.10
 - `yup`: ^1.4.0
 
-## Dev Dependencies
+## Dependências de Desenvolvimento
 
 - `@babel/core`: ^7.20.0
 
-## Contributing
+## Contribuindo
 
-We welcome contributions to this project. Please follow these steps to contribute:
+Nós aceitamos contribuições para este projeto. Por favor, siga estes passos para contribuir:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a new Pull Request.
+1. Faça um fork do repositório.
+2. Crie uma nova branch (`git checkout -b feature/sua-funcionalidade`).
+3. Commit suas mudanças (`git commit -am 'Adicione uma funcionalidade'`).
+4. Faça o push para a branch (`git push origin feature/sua-funcionalidade`).
+5. Crie um novo Pull Request.
 
 ## Autores
 
-[Glauton Osório](https://github.com/glautonOsorio)-
-[Thalles Azevedo](https://github.com/TThaz) -
-[Herbert Cardozo](https://github.com/HerbCyor)
+[Glauton Osório](https://github.com/glautonOsorio) -
+[Herbert Cardozo](https://github.com/HerbCyor) -
+[Thalles Azevedo](https://github.com/TThaz)
 
-## License
+## Licença
 
-This project is licensed under the MIT License.
+Este projeto está licenciado sob a Licença MIT.
