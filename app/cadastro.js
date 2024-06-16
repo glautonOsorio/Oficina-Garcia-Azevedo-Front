@@ -89,7 +89,6 @@ function Cadastro() {
         const result = await response.json();
         if (response.ok) {
           router.push("/login");
-
           Alert.alert("Success", "User registered successfully");
         } else {
           Alert.alert("Error", result.message || "Failed to register user");

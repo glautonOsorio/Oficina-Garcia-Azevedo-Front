@@ -58,7 +58,7 @@ export default function Index() {
       return;
     }
     try {
-      const response = await fetch("http://localhost:3333/users/delete", {
+      const response = await fetch("http://localhost:3333/users/profile", {
         method: "DELETE",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -133,7 +133,7 @@ export default function Index() {
                 <Text style={styles.buttonText}>Atualizar</Text>
               </Pressable>
             </Link>
-            <Pressable style={styles.buttonOptions} onPress={LogOff}>
+            <Pressable style={styles.buttonOptions} onPress={deleteUser}>
               <Text style={styles.buttonText}>Deletar </Text>
             </Pressable>
           </View>
